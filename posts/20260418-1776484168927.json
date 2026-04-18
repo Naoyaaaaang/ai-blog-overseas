@@ -1,0 +1,14 @@
+{
+  "slug": "20260418-1776484168927",
+  "title": "「え、Anthropicが？」ワシントンが揺れた、AI新時代の舞台裏",
+  "content": "<h2>Anthropicの最新AI「Mythos」が話題に...！ホワイトハウスも動き出した</h2>\n\n<p>これ、最近見つけてしまったんですが、本当にヤバいニュースなんです。Anthropic のCEO、ダリオ・アモデイが金曜日にホワイトハウスの首席補佐官スーザイ・ワイルズとミーティングをするというんですよ。何のミーティングかというと、「Mythos」という最新の超高度なAIモデルのアクセス権をめぐる交渉なんですって。正直、こういう国家レベルの動きって、そのツールがどれだけ重要かを物語ってますよね。</p>\n\n<p>Mythosの正体がまたすごいんです。このAIモデル、なんと全主要オペレーティングシステムとブラウザにおける「ゼロデイ脆弱性」を識別・悪用できるレベルの能力を持ってるんだとか。ゼロデイ脆弱性って、発見されていない未知のセキュリティ穴のことなので、これが識別できるということは...つまり、サイバーセキュリティ関連の世界では本当に革命的な話なんですよ。知ってる人ってまだ少ないと思います。</p>\n\n<h2>ペンタゴンとの対立...安全性と実用性のバランスが問題に</h2>\n\n<p>ここが面白いところなんですけど、実はAnthropicはペンタゴン（アメリカ国防総省）からブラックリスト化されちゃってるんです。理由は、アモデイがセーフティ機能を外すことを拒否したから、らしい。つまり、このMythosというツール、本当に強力だからこそ、どこまで安全に運用するかで各機関が揺れ動いてるんですよ。これぞまさに「強大な力には大きな責任が伴う」ってやつですね。</p>\n\n<p>個人的には、このニュースを読んでて思ったのが、AIのセキュリティ領域での活用って日本でも急速に必要になるってことです。特に大手企業のシステム担当者とか、セキュリティチームにいる人たちからしたら、こういう先端的なツールの動向は目が離せないですよ。英語が苦手でも、ホワイトハウスのニュースなら日本語のテック系メディアでもカバーされ始めてるはずなので、今のうちにキャッチアップしておくと「あ、このツール知ってます」って言える立場になれます。</p>\n\n<h2>実用情報：気になる料金とアクセス方法</h2>\n\n<p>さて、ここからが実務的な部分です。<strong>Mythosのアクセス権については現在、アメリカの政府機関と大手企業に限定されている模様</strong>。一般向けの公開日程や料金体系はまだ公式アナウンスがされていないので、かなり限定的な運用になりそうです。ただ、Anthropic自体は他のAIモデルでは無料プランを提供してるので、将来的には段階的な提供が検討されるかもしれません。</p>\n\n<p>今の段階では「このツール、こういう話題で動いてるんだ」って知識を入れとくだけでも、今後のビジネスやセキュリティ業界の話についていく上で有利になると思います。とりあえず、このニュースをブックマークして、今後のAnthropicの動きをウォッチしておくことをおすすめします。国家レベルで注目されてるツールなんで、絶対に今後の主流になりますよ。</p>\n\n<p style=\"margin-top: 30px; border-top: 1px solid #ddd; padding-top: 15px;\">\n  <strong>参照元：</strong> <a href=\"https://thenextweb.com/news/anthropic-amodei-wiles-mythos-white-house-pentagon-cybersecurity\" target=\"_blank\">The Next Web - Anthropic's Amodei heads to the White House as Washington fights over Mythos access</a>\n</p>",
+  "imageUrl": "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2026/04/anthropic-amodei-wiles-mythos-white-house-pentagon-cybersecurity.png",
+  "source": "Dev Tools",
+  "sourceUrl": "https://thenextweb.com/news/anthropic-amodei-wiles-mythos-white-house-pentagon-cybersecurity",
+  "publishedAt": "2026-04-18T03:49:28.927Z",
+  "tags": [
+    "海外ツール",
+    "SaaS",
+    "Dev Tools"
+  ]
+}
