@@ -1,0 +1,14 @@
+{
+  "slug": "20260420-1776658897108",
+  "title": "エンタープライズAIエージェントの新機能！NanoClawとVercelが15のメッセージアプリで承認機能を実装",
+  "content": "<h2>AIエージェントの「暴走」問題、ついに解決！NanoClawとVercelの革新的なコラボが上陸</h2>\n\n<p>これ、見つけてしまいました...！今、海外のAI開発者の間で静かに話題になってるツールがあるんですが、その名も<strong>NanoClaw 2.0</strong>。正直、ここまで実用的で安全なAIエージェントフレームワークは初めて見ました。</p>\n\n<p>昨年から自律型AIエージェントを導入した企業の多くが直面してた問題って、こんなシンプルで深刻なものなんです：「AIに実権を与えないと使い物にならないけど、与えると暴走する可能性がある」。つまり、メール対応も予定管理も、クラウドインフラの操作も、全部やらせようと思ったら、APIキーをそのまま渡すしかなかったわけ。恐ろしい...。</p>\n\n<h2>「インフラレベルの承認システム」という革新的な解決策</h2>\n\n<p>NanoClawが今回やったのは、この「全か無か」の悪循環を完全に打ち破ることなんです。Vercelの「Chat SDK」とOneCLIの「認証情報保管庫」を組み合わせて、<strong>AIエージェントが何かしたいと思った時に、人間が明確にOKを出すまでは何もできない仕組み</strong>を作ったんですよ。</p>\n\n<p>技術的な話をすると、従来のAIフレームワークって「アプリケーションレベル」でセキュリティを考えてたんです。つまり、AIが「このアクションでいい？」って聞いてくるUI画面を自分で作ってる。でもここがヤバい。悪意あるAIだったり、プロンプトインジェクション攻撃を受けたAIだったりしたら、「OK」と「キャンセル」ボタンを勝手に入れ替えることもできちゃうわけです。怖すぎですよね。</p>\n\n<p>NanoClaw 2.0はそうじゃなくて、<strong>インフラレベル</strong>で強制してます。AIエージェントを厳密に隔離されたDockerコンテナやApple Containerの中で実行。AIには本物のAPIキーなんか見せずに「ダミーキー」を渡しておくんです。AIがリクエストを出したら、Rustで書かれた「OneCLI Gateway」がそれを割り込んで検査。「読み取り専用ならOK」「でもメール送信は要承認」みたいなポリシーを確認して、必要なら人間に許可を取る。ユーザーがSlackやWhatsAppで「OK」をタップしてはじめて、本物の暗号化されたクレデンシャルがリクエストに注入されて実行される。すごくないですか？</p>\n\n<h2>15個のメッセージングアプリに対応、日本人にも使いやすい</h2>\n\n<p>個人的には、Vercelの Chat SDK を使った対応の広さに感動しました。Slack、Teams、WhatsApp、Telegram、Discord、Google Chat、iMessage、Facebook Messenger、Instagram、X（Twitter）、GitHub、Linear、Matrix、Email、Webex——<strong>15個のプラットフォーム</strong>に統一されたTypeScriptのコードベースから対応してるんですよ。</p>\n\n<p>各メッセージングアプリって、ボタンやカードのAPIが全部違うから、通常は各プラットフォーム用に別々にコード書かなきゃいけません。めちゃくちゃ面倒。でもVercelのSDKを使えば、1回のコードで複数プラットフォームに「リッチなカード」として承認ダイアログを送信できる。ユーザーは使い慣れたアプリの中でポンッと承認するだけ。生産性も落ちないし、セキュリティも担保できる。これ、ほんと考えぬかれてます。</p>\n\n<p>DevOpsチームだったら「クラウドインフラの変更提案→Slackで承認」。金融チームだったら「バッチ支払い準備→WhatsAppで最終署名」みたいな使い方ができるわけです。</p>\n\n<p><strong>【実用情報】</strong><br>\n・日本語対応：なし（英語ベースですが、メッセージングアプリ経由で使用可能）<br>\n・料金：完全無料（MIT ライセンスのオープンソース）<br>\n・学習コスト：コードがわずか3,900行＆500行のコア部分なので、セキュリティ監査は約8分で完了できる設計</p>\n\n<p>何が個人的に好きかって、NanoClawの哲学そのもの。創設者のGavriel Cohenさんは「複雑で",
+  "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/1TbIHt5VGnNz5GgWg0xUQf/dbf2d9a2c16fd6985c59325778edc9ce/Gemini_Generated_Image_89y0kh89y0kh89y0.png?w=300&q=30",
+  "source": "AI Tools",
+  "sourceUrl": "https://venturebeat.com/orchestration/should-my-enterprise-ai-agent-do-that-nanoclaw-and-vercel-launch-easier-agentic-policy-setting-and-approval-dialogs-across-15-messaging-apps",
+  "publishedAt": "2026-04-20T04:21:37.108Z",
+  "tags": [
+    "海外ツール",
+    "SaaS",
+    "AI Tools"
+  ]
+}
