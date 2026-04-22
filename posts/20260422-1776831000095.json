@@ -1,0 +1,14 @@
+{
+  "slug": "20260422-1776831000095",
+  "title": "「え、これ何日も動くの？」Kimi K2.6が暴く企業AIの限界",
+  "content": "<h2>数日間ぶっ通しで動作するAIエージェント！？Kimi K2.6が本気を出してしまった...</h2>\n\n<p>これ、見つけてしまいました...！中国のMoonshot AIが開発した新しいAIモデル「Kimi K2.6」なんですが、正直かなりヤバいです。なぜなら、このモデルは最大で<strong>5日間ぶっ通しで自動実行され続ける</strong>というから。普通のAIツールって数秒〜数分で終わるじゃないですか。それなのに、この子は数時間〜数日間...。知ってる人まだ少ないかも。</p>\n\n<p>従来のオーケストレーションフレームワークって、数秒〜数分で終わるエージェントを想定して設計されてるんですよ。でもKimi K2.6は違う。<strong>時間単位で動き続けるエージェント</strong>を想定した設計になってるんです。実際にMoonshot AIのテストでは、SysYコンパイラを10時間かけてゼロから構築したり、13時間かけて1000回以上のツール呼び出しで4000行以上のコードを修正したりしてるんですよ。すごくないですか？</p>\n\n<h2>なぜ既存ツールでは限界が見えてるのか</h2>\n\n<p>ClaudeやOpenAIのCodexも長時間実行には対応してきたんですが、実は完全じゃなかったんです。問題は<strong>「状態管理」</strong>。エージェントが数日間動き続けると、その間に環境がコロコロ変わるじゃないですか。呼び出すAPIも変わるし、データベースの状態も変わる。そういう中で一貫性を保つのって、めちゃくちゃ難しいんですよ。</p>\n\n<p>個人的には、Kimi K2.6が「Agent Swarms」という機能で最大300個のサブエージェントを4000ステップ同時に管理してるという点が特に好きです。これって単なる「複数エージェントの制御」じゃなくて、事前に役割を決めるんじゃなく<strong>AIモデル自体が動的に判断する</strong>という設計らしいんです。ClaudeやCodexに比べてこの柔軟性は明らかに違いますね。</p>\n\n<h2>日本企業にこそ必要かもしれない機能</h2>\n\n<p>日本語対応については、APIベースのアクセスなので英語が苦手でも大丈夫。ドキュメントさえあれば統合できます。料金体系としては、HuggingFaceを通じた無料プランと、APIの従量課金制があるみたいです。</p>\n\n<p>日本人ユーザーにとっては、特に「複雑なシステムの監視・自動復旧」「定期的なコード品質改善」みたいな24時間連続実行が必要な業務に向いてそう。ベンチャー企業とかスタートアップで、人手不足だからこそ活躍しそうです。</p>\n\n<p>ただし注意点として、これだけ長時間動作させるとなると、ガバナンスやロールバック機能も重要になってきます。記事でも触れられてますが、「エージェントが生成・変更した内容をちゃんと人間がレビューできる仕組み」がないと危険ですね。</p>\n\n<p>とりあえずHuggingFaceで無料アクセスできるので、実験的に試してみてください！数日間ぶっ通しで動作するエージェント、一度見たら手放せなくなると思いますよ。</p>\n\n<p><strong>【実用情報】</strong><br>\n日本語対応：なし（ただしAPIベースなので統合は容易）<br>\n料金：HuggingFaceでの無料プラン + API従量課金制</p>\n\n<p><strong>参照元：</strong><a href=\"https://venturebeat.com/orchestration/kimi-k2-6-runs-agents-for-days-and-exposes-the-limits-of-enterprise-orchestration\" target=\"_blank\">VentureBeat - Kimi K2.6 runs agents for days — and exposes the limits of enterprise orchestration</a></p>",
+  "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/40fR9CpmE4uh4lmBKbjUoL/5b2fdc6ef487f98dffd012e7c463e2f2/crimedy7_illustration_of_robots_running_a_marathon_--ar_169_-_efc437bd-489e-444c-88e3-8cf58e91a063_3.png?w=300&q=30",
+  "source": "AI Tools",
+  "sourceUrl": "https://venturebeat.com/orchestration/kimi-k2-6-runs-agents-for-days-and-exposes-the-limits-of-enterprise-orchestration",
+  "publishedAt": "2026-04-22T04:10:00.095Z",
+  "tags": [
+    "海外ツール",
+    "SaaS",
+    "AI Tools"
+  ]
+}
