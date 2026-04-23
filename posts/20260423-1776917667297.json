@@ -1,0 +1,14 @@
+{
+  "slug": "20260423-1776917667297",
+  "title": "「え、これGoogleが？」AIチップの秘密兵器TPU登場",
+  "content": "<h2>Google、ついに「Nvidia税」から解放される...！新世代TPU v8が業界の常識をぶち壊す</h2>\n\n<p>これ、見つけてしまいました...！先日Googleが発表した新型のTPU（Tensor Processing Unit）v8の話なんですが、正直なところ、AI業界の力学がガラッと変わってしまう可能性を秘めています。</p>\n\n<p>いま、全世界のAIラボが必死に確保しようとしているものって何か知っていますか？それは「電力」と「計算資源」。そしてその計算資源の大半は、あの超有名なNvidiaから購入されているんです。Nvidiaは莫大な利益率でH100やBlackwellなどのGPUを供給してきて、今や世界屈指の企業価値を持つようになった...。</p>\n\n<p>でもGoogleは違う。自社で独自に設計・製造した専用チップ「TPU」を使うことで、完全にこの「Nvidia税」を回避しているんですよ。今回発表されたTPU v8は、実に8世代目。その戦略が今、ついに花開こうとしています。</p>\n\n<h2>訓練用と推論用に特化した2つのチップ戦略が秀逸すぎる</h2>\n\n<p>個人的に最も驚いたのは、Googleがこのv8で「2つの専用チップ」という路線を選んだこと。TPU 8tは大規模な最先端モデルの訓練用に、TPU 8iは低遅延が命のAIエージェント推論用に──完全に役割を分けて設計したんです。</p>\n\n<p>知ってる人まだ少ないかもしれませんが、これまでほとんどのAIラボは「1つの万能チップ」で全てをやろうとしていました。でもGoogleはこの判断を2024年の時点で決めていたそう。当時は「本当にそれが必要か？」と懐疑的な声もあったでしょう。ところが、その後の推論モデルやエージェント技術の発展を見ていると...Googleの先見の明が完全に正しかったことが分かります。</p>\n\n<p>TPU 8tのスペックも正直やばくて、前世代（Ironwood）比で2.8倍のFP4演算性能。さらに驚くべきは「100万個以上のTPUチップを1つの訓練ジョブで動かせる」という規模感。これ、日本の大手企業が大型LLM開発を考えるなら、自社インフラより確実にGoogle Cloud経由の方が現実的になっていく流れですね。</p>\n\n<h2>Googleが完全に「スタック全体」を支配している強み</h2>\n\n<p>でも最も本質的な強みはここ。Googleはエネルギー管理から、データセンター設計、ハードウェア、ソフトウェア（JAX/XLA）、モデル（Gemini 3）、サービスまで──全てを自分たちで設計しているんです。</p>\n\n<p>一方、OpenAIやAnthropicはNvidiaに依存しているから、H200やBlackwellを買うたびにNvidiaのマージン（いわば「Nvidia税」）を払わされ続ける。Googleはチップの製造費とエンジニアリングコストのみ。この構造的な差は、長期的には競争力に直結します。</p>\n\n<p>**料金：Googleの各サービスで利用可能（エンタープライズ向けで詳要見積）**<br>\n**日本語対応：あり（Google Cloudは完全日本語サポート）**<br>\n**一般利用可能時期：2026年中予定**</p>\n\n<p>2026年から2027年にかけての大型モデル開発を検討している企業なら、このTPU v8の詳細スペックや、Vertex AI上での推論性能ベンチマークは絶対にチェックしておくべき。自社で専用チップを持つことの強さを思い知らされます。</p>\n\n<p>とりあえずGoogle Cloudの最新資料を見てみてください。業界の常識がどう変わっていくか、体感できるはずです！</p>\n\n<p><strong>参照元：</strong><a href=\"https://venturebeat.com/orchestration/google-doesnt-pay-the-nvidia-tax-its-new-tpus-explain-why\" target=\"_blank\">VentureBeat - Google doesn't pay the Nvidia tax. Its new TPUs explain why.</a></p>",
+  "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/7Lv60ZibdUZoJ7qlsTTtBS/28670e6d74be8e010be8906057eb9bae/PXL_20260422_025515735.jpg?w=300&q=30",
+  "source": "AI Tools",
+  "sourceUrl": "https://venturebeat.com/orchestration/google-doesnt-pay-the-nvidia-tax-its-new-tpus-explain-why",
+  "publishedAt": "2026-04-23T04:14:27.297Z",
+  "tags": [
+    "海外ツール",
+    "SaaS",
+    "AI Tools"
+  ]
+}
