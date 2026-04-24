@@ -1,0 +1,14 @@
+{
+  "slug": "20260424-1777004322582",
+  "title": "知らなかった！OpenAIが企業向け新ツール「Workspace Agents」発表",
+  "content": "<h2>OpenAIが「Workspace Agents」をリリース！これ、ビジネス界変わるやつです...！</h2>\n\n<p>知ってる人まだ少ないかもしれませんが、OpenAIがとんでもないものを発表してしまいました。その名も「Workspace Agents」。簡単に言うと、ChatGPTの企業向け進化版なんですが、これがもう...Slack、Salesforce、Google Drive、Notionなどなど、あなたの会社で使ってるアプリに直接接続して、自動で仕事をやってくれちゃうんです。</p>\n\n<p>従来のカスタムGPTsは「ChatGPTに聞いて、その答えを使う」という感じだったんですが、このWorkspace Agentsは違う。データを引っ張ってきて、グラフを作って、チーム全員にメール送ったり、レポート作ったり...人間がいちいち指示を出さなくても、勝手に仕事を完結してくれちゃうんですよ。個人的には、これが一番すごいなと思ったポイントです。</p>\n\n<h2>「Codex」というAIコーディング基盤が、すべての秘密</h2>\n\n<p>なぜこんなことが可能になったのか？それは「Codex」という、OpenAIの自社開発AIコーディング基盤が背景にあるから。このエンジンのおかげで、Agents側でコードを実行したり、複数のアプリを連携させたり、長期間にわたって作業を継続したりできるようになったんです。つまり「CSVファイルを変換する」「システム間のデータを整合させる」みたいな、本当の意味での「仕事」ができるようになっちゃった。</p>\n\n<p>金曜日の売上レポートなんて典型例。毎週金曜に自動で数字を集めて、グラフ作ってまとめて...みたいなルーチンワークは、もう人間がやる必要ないですね。週次や月次のレポートで頭を悩ませてる日本の営業チームには、本当に救世主だと思います。</p>\n\n<h2>企業管理機能がしっかりしてるから、安心して導入できる</h2>\n\n<p>「でもちょっと待って、勝手に色々されちゃったら怖くない？」って思いますよね。その点、OpenAIもちゃんと考えてます。管理者側で「誰がエージェントを作れるのか」「どのアプリに接続させるのか」「データを編集する時は承認が必要か」みたいなルール設定ができるんです。英語が苦手な方でも、日本語のドキュメントが出る頃には、管理画面のUIだけで権限管理できるようになってると思います。</p>\n\n<p>実際、Rippling（HRプラットフォーム）の早期導入事例では、営業担当者が営業用エージェントを5〜6時間かかる業務を自動化できたって言ってます。エンジニアの手を借りずにですよ。これ、日本の中小企業だって導入できるレベルのシンプルさです。</p>\n\n<p>【実用情報】日本語対応：現在は英語版ですが、日本語サポートは近日中に対応予定と思われます　料金：2026年5月6日まで無料！その後はクレジットベースの従量課金制</p>\n\n<p>正直、このWorkspace Agents、あのSalesforce AgentforceやGoogle Agentspaceなんかと比較しても、ChatGPTユーザーなら導入がめちゃくちゃ簡単なんですよ。既に月額20ドル（ビジネスプラン）払ってる企業なら、新しい追加コストなしに試せちゃう。</p>\n\n<p>とりあえず無料期間のうちに触ってみてください。損はしないはず。むしろ、あなたのチームの週5〜6時間の作業が消えるかもしれません。</p>\n\n<p><strong>参照元：</strong><a href=\"https://venturebeat.com/orchestration/openai-unveils-workspace-agents-a-successor-to-custom-gpts-for-enterprises-that-can-plug-directly-into-slack-salesforce-and-more\" target=\"_blank\">VentureBeat - OpenAI unveils Workspace Agents</a></p>",
+  "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/4Xdu5CqjmyRwz1NBaDX14Z/b43e969be10254ca838bf1ad60a187a6/ChatGPT_Image_Apr_22__2026__07_40_47_PM.png?w=300&q=30",
+  "source": "AI Tools",
+  "sourceUrl": "https://venturebeat.com/orchestration/openai-unveils-workspace-agents-a-successor-to-custom-gpts-for-enterprises-that-can-plug-directly-into-slack-salesforce-and-more",
+  "publishedAt": "2026-04-24T04:18:42.582Z",
+  "tags": [
+    "海外ツール",
+    "SaaS",
+    "AI Tools"
+  ]
+}
