@@ -1,0 +1,14 @@
+{
+  "slug": "20260430-1777523983234",
+  "title": "コードをAIが自動診断？CodeHealthの実力を検証",
+  "content": "<h2>CodeScene の CodeHealth MCP Server を発見してしまいました...！</h2>\n\n<p>ProductHunt で見かけた CodeHealth MCP Server、知ってます？まだ日本ではあんまり話題になってないみたいなんですが、これ本当に素敵なツールです。CodeScene という企業が開発してるやつなんですけど、正直「こんなのあるんだ...」って感動しちゃいました。</p>\n\n<p>簡単に説明すると、このツールはあなたのコードの「健康状態」を診断してくれる MCP（Model Context Protocol）サーバーなんです。つまり、コードの品質を自動的にチェックして、改善すべき点を教えてくれるってわけ。AI アシスタントと連携させて、コード review をめっちゃ効率化できちゃうんですよ。</p>\n\n<h2>エンジニアじゃなくても使える？日本人向けの魅力</h2>\n\n<p>ここからが重要なんですけど、日本語対応は現在のところ「なし」です。でもね、これが英語が苦手な人でもいけちゃう理由があるんです。MCP Server だから、Claude や他の AI チャットボットに連携させれば、日本語でコード改善の提案を受け取れるんですよ。つまり、英語を読む必要がほぼないんです。</p>\n\n<p>料金の話をすると「完全無料」。これもすごい。CodeScene の哲学なんだと思いますけど、開発チームのコード品質向上をサポートしたいという想いが伝わってきます。追加料金なしに MCP Server を使えるって、結構珍しいんですよ。</p>\n\n<h2>他のコード分析ツールと何が違うのか</h2>\n\n<p>正直なところ、SonarQube とか CodeFactor みたいなツールもありますよね。でも CodeHealth MCP Server の推しポイントは「AI インテグレーション」です。従来のツールは分析結果をダッシュボードで見せてくるけど、このサーバーは AI とやり取りするプロトコルだから、対話的にコード改善を進められるんです。個人的には、この「AI と一緒に改善を検討できる」感じが本当に秀逸だと思いました。</p>\n\n<p>特に日本人エンジニアには良さそうだなって感じるのは、レガシーコードが多い企業が多いじゃないですか。既存プロジェクトのコード品質を少しずつ上げたい、でも大規模な refactor はできない...そんな時に AI と相談しながら改善点を探っていく、っていう使い方ができるんです。</p>\n\n<p>とりあえず無料だし、GitHub リポジトリに連携させて一度試してみてください。損することはまずないと思いますよ。新しいツールを見つける時ってこういう「あ、これいいな」って瞬間が大事ですから。ぜひ！</p>\n\n<p style=\"margin-top: 2em; font-size: 0.9em;\"><strong>参照元：</strong> <a href=\"https://www.producthunt.com/products/codescene-codehealth-mcp-server\" target=\"_blank\">CodeHealth MCP Server by CodeScene - Product Hunt</a></p>",
+  "imageUrl": "https://loremflickr.com/1200/630/software?lock=3234",
+  "source": "ProductHunt",
+  "sourceUrl": "https://www.producthunt.com/products/codescene-codehealth-mcp-server",
+  "publishedAt": "2026-04-30T04:39:43.235Z",
+  "tags": [
+    "海外ツール",
+    "SaaS",
+    "ProductHunt"
+  ]
+}
