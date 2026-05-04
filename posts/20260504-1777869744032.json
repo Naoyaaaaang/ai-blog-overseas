@@ -1,0 +1,14 @@
+{
+  "slug": "20260504-1777869744032",
+  "title": "xAI、Grok 4.3と音声クローンツール発表！破格の価格で話題沸騰",
+  "content": "<h2>xAIが新モデル「Grok 4.3」をぶっ壊れた価格で発表！音声クローン機能も追加されました</h2>\n\n<p>これ、見つけてしまいました...！イーロン・マスク率いるxAIが、先日「Grok 4.3」という新しいAIモデルと、かなり興奮度の高い音声クローン機能を一気にリリースしたんです。知ってる人、まだ少ないかもしれません。</p>\n\n<p>正直、このタイミングで発表された理由がすごく戦略的なんですよ。OpenAIやAnthropicといった大手に比べて、Grokはこれまで「ちょっと性能で劣ってた」というのが業界の評価だったんです。でも今回のGrok 4.3は、その評価をぶち壊す可能性を秘めています。特に法律や金融の分野では、競合モデルを圧倒する精度を叩き出してるらしいですよ。</p>\n\n<h2>ぶっ壊れた価格設定が本当にヤバい</h2>\n\n<p>一番驚いたのが、このモデルのAPI価格です。入力トークンが100万個あたり1.25ドル、出力が2.50ドル。これ、前バージョンのGrok 4.2に比べて約40～60%も安くなってるんです。個人的には、OpenAIやClaudeの高級路線に疲れてた開発者にとって、このコスパは革命的だと思います。</p>\n\n<p>さらに面白いのが「推論トークン」という新しい課金体系。つまり、AIが「考える過程」で生成するトークンもカウントされるわけです。これって、AIが深く考える力があることを意味してるんですよね。1百万トークンのコンテキストウィンドウ（つまり、一度に理解できる情報量が数冊の分厚い本分相当）を持ってるのに、この値段。本当に狂ってます。</p>\n\n<p>実際の使用例を見ると、Grok 4.3は単なる質問応答じゃなくて、Excelの複雑な計算シートを作ったり、12ページのPDFレポートを生成したり、PowerPointプレゼンを自動作成したりできるらしい。これ、実務的に超便利です。</p>\n\n<h2>120秒で自分の声がクローンできる...？</h2>\n\n<p>もう一つ、びっくりした機能が「Custom Voices」。要は、自分の声を120秒の音声サンプルからAIにコピーさせちゃう機能です。試した人の感想では、「気持ち悪いほど正確に声をコピーされた」とのこと。イントネーションやしゃべり方のクセまで学習するらしいですよ。</p>\n\n<p>料金的には、音声エージェントAPIが月額180ドル相当の従量課金（1分あたり約3セント）。ElevenLabsみたいな専門の音声サービスに比べると、かなり安いです。ただし現在のところ、このカスタムボイス機能はアメリカ国内のみの提供。日本人が使いたい場合は、標準ボイスの5種類（Eve、Ara、Rexなど）から選ぶ形になります。</p>\n\n<p>【実用情報】</p>\n<p>■日本語対応：なし（英語中心）<br>\n■料金：月額$30のSuperGrok、または従量課金制（API利用時）<br>\n■無料トライアル：可能（xAI APIアカウント登録後）</p>\n\n<p>個人的には、コスト効率と性能のバランスで見ると、法律や金融関連のドキュメント処理をしてる企業には最高の選択肢だと思います。ただし、複雑な計算問題には弱いという報告もあるので、自分の用途が合ってるか確認してから使うのがベストです。</p>\n\n<p>とりあえず、API無料枠で試してみてください。このコスパと性能、損することはまずないはず。OpenAIやClaudeの高い料金に疲れてたあなたなら、きっと虜になりますよ。</p>\n\n<p><a href=\"https://venturebeat.com/technology/xai-launches-grok-4-3-at-an-aggressively-low-price-and-a-new-fast-powerful-voice-cloning-suite\" target=\"_blank\">参照元：VentureBeat - xAI launches Grok 4.3 at an aggressively low price and a new, fast, powerful voice cloning suite</a></p>",
+  "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/6c9N7ubweMcf8hAUjcDZIH/fb25ad47038633db57b73f2f45bc3225/FkIIbTjMYUsldxbqMHtky_g5BcjizZ.jpg?w=300&q=30",
+  "source": "AI Tools",
+  "sourceUrl": "https://venturebeat.com/technology/xai-launches-grok-4-3-at-an-aggressively-low-price-and-a-new-fast-powerful-voice-cloning-suite",
+  "publishedAt": "2026-05-04T04:42:24.032Z",
+  "tags": [
+    "海外ツール",
+    "SaaS",
+    "AI Tools"
+  ]
+}
