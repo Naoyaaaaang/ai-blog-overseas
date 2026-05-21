@@ -1,0 +1,14 @@
+{
+  "slug": "20260521-1779340291952",
+  "title": "Cohereの新作モデルがヤバい！無損失量子化と引用機能が搭載",
+  "content": "<h2>Cohereが超効率的なAIモデル「Command A+」をApache 2.0で無料公開！これ、見つけてしまいました...</h2>\n\n<p>\nカナダのAI企業Cohereが、とんでもないモデルを発表しちゃいました。その名も「Command A+」——218億パラメータという巨大な言語モデルなんですが、ここからが凄いんです。このモデルの重みが、Hugging Face上でApache 2.0ライセンス（完全に商用利用OKの真のオープンソースライセンス）で完全無料公開されたんです。Cohereの創業者でGoogleの元研究者・Aidan Gomez氏が「当社初」だとX上で宣言しているので、これはマジで歴史的な瞬間だと思います。知ってる人、まだ少ないかもですよ...！\n</p>\n\n<h2>驚愕のハードウェア効率：1枚のGPUで動かせる218億パラメータ</h2>\n\n<p>\nCommand A+の最大の武器は「Sparse Mixture-of-Experts（MoE）」という設計です。簡単に言うと、218億のパラメータのうち、実際に動作するのはたったの25億だけ。残りは「いざという時のために待機中」という感じで、これがとんでもなく効率的なんです。個人的には、このアプローチが特に好きです。なぜなら、OpenAIのGPT-5.5やAnthropicのClaude Opusは兆パラメータ級の巨体なのに、Command A+は圧倒的に軽量で、かつ推論速度が秒速375トークンと超高速。わずか113ミリ秒でレスポンスが返ってくるんです。\n\nさらに、4ビット量子化（W4A4）という極限までの圧縮技術を使うことで、このモデルがNVIDIA Blackwell B200というたった1枚のGPU、もしくはH100 GPUわずか2枚で動くように最適化されています。これはマジで革命的。従来のOpenAIやAnthropicのモデルと比べて、デプロイメントのコストと手間が全然違います。\n</p>\n\n<h2>日本語を含む48言語対応＆ネイティブ引用機能で、ビジネス利用も完全対応</h2>\n\n<p>\nもう一つの見どころが、日本を含む48言語にネイティブ対応したトークナイザーです。特に、アラビア語で20%、日本語で18%、韓国語で16%のトークン数削減を実現しているんです。トークンベースの課金体系だから、これは直接的なコスト削減につながります。日本語が苦手なエンジニアでも大丈夫。Hugging FaceやvLLMという主流フレームワークと即座に統合可能で、セットアップも簡単です。\n\nさらに、企業向けの信頼性機能として「ネイティブ引用機能」が実装されています。AIが外部ツールやデータベースから情報を取得した時、単に答えを返すのではなく、その情報がどのソース（どのDB行か、どのドキュメントか）から来たのかを明示するんです。これは金融・医療・法務といった規制が厳しい業界にとって、プロトタイプと本番システムの分け目になる機能です。\n</p>\n\n<p>\n<strong>【実用情報】</strong><br>\n日本語対応：あり（48言語対応）<br>\n料金：完全無料（Apache 2.0ライセンス）<br>\n商用利用：可能（ライセンス上の制限なし）\n</p>\n\n<p>\n個人的には、ここまで効率的で、かつ完全にオープンソース化されたモデルって、市場に出たことがないと思います。Cohereの前のCommand R+はCreative Commons NC（非商用）ライセンスだったから、企業が導入するなら別途ライセンスを買う必要がありました。でもCommand A+はそれがない。企業は自社サーバーにダウンロードしてきて、自社の秘匿データで微調整して、完全にオンプレミスで動かせるんです。これが「Sovereign AI」思想の完全な実現です。\n\nとりあえずHugging Faceで無料ダウンロードして試してみてください。損は絶対にしないはず。もしかしたら、あなたの企業のAI戦略、このモデルで全部変わるかもしれませんよ...！\n</p>\n\n<p style=\"margin-top: 30px; font-size: 14px; color: #666;\">\n参照元：<a href=\"https://venturebeat.com/technology/cohere-cracks-lossless-quantization-and-native-citations-with-first-full-apache-2-0-licensed-open-model-command-a\" target=\"_blank\">VentureBeat - Cohere c",
+  "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/2ooDwZZRkOXFbljlU3UX8T/512fe2501fcc0281a48bc484e7794a7f/ChatGPT_Image_May_20__2026__03_40_32_PM.png?w=300&q=30",
+  "source": "AI Tools",
+  "sourceUrl": "https://venturebeat.com/technology/cohere-cracks-lossless-quantization-and-native-citations-with-first-full-apache-2-0-licensed-open-model-command-a",
+  "publishedAt": "2026-05-21T05:11:31.952Z",
+  "tags": [
+    "海外ツール",
+    "SaaS",
+    "AI Tools"
+  ]
+}
