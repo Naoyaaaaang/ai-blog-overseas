@@ -14,7 +14,7 @@ export default function ContactPage() {
         <p className="text-sm mb-8" style={{ color: 'var(--text-secondary)' }}>ご質問・ご意見・掲載内容に関するご指摘などはこちらからお送りください。</p>
 
         <form
-          action="https://formspree.io/f/YOUR_FORM_ID"
+          action="https://formspree.io/naoyaaaaang@gmail.com"
           method="POST"
           className="space-y-6"
         >

@@ -27,7 +27,7 @@ export default function AboutPage() {
             <h2 className="text-base font-bold mb-3 pl-3 border-l-4" style={{ color: 'var(--text-primary)', borderColor: 'var(--accent)' }}>
               情報ソース
             </h2>
-            <p>以下の信頼性の高いメディア・公式ブログから情報を収集しています。</p>
+            <p>以下の信頼性の高い海外メディア・公式ブログから情報を収集し、日本語で詳しく解説しています。</p>
             <ul className="mt-3 space-y-2">
               {siteConfig.categories.map(cat => (
                 <li key={cat.slug} className="flex items-center gap-2">
@@ -40,16 +40,23 @@ export default function AboutPage() {
 
           <section>
             <h2 className="text-base font-bold mb-3 pl-3 border-l-4" style={{ color: 'var(--text-primary)', borderColor: 'var(--accent)' }}>
+              運営者について
+            </h2>
+            <p>海外SaaS・AIツールに興味を持つ日本人ライター・エンジニアが運営しています。ProductHuntやTechCrunchなど英語圏のツール情報をいち早くキャッチし、日本人目線での使いやすさや活用方法を中心に発信しています。</p>
+          </section>
+
+          <section>
+            <h2 className="text-base font-bold mb-3 pl-3 border-l-4" style={{ color: 'var(--text-primary)', borderColor: 'var(--accent)' }}>
               更新頻度
             </h2>
-            <p>毎日自動で新しい記事を追加しています。最新情報をいち早くお届けします。</p>
+            <p>毎日新しい記事をお届けしています。海外メディアの最新情報をいち早く日本語でお届けすることを目指しています。</p>
           </section>
 
           <section>
             <h2 className="text-base font-bold mb-3 pl-3 border-l-4" style={{ color: 'var(--text-primary)', borderColor: 'var(--accent)' }}>
               免責事項
             </h2>
-            <p>本サイトの記事は、海外ニュースをもとにAIが自動生成したものです。内容の正確性については最大限配慮していますが、情報の利用による損害について責任を負いかねます。最新・正確な情報は各情報ソースの公式サイトをご確認ください。</p>
+            <p>本サイトの記事は、海外の信頼性の高いメディアから収集した情報をもとに、編集・翻訳・解説を加えて掲載しています。内容の正確性については最大限配慮していますが、情報の利用による損害について責任を負いかねます。最新・正確な情報は各情報ソースの公式サイトをご確認ください。</p>
           </section>
 
           <section>

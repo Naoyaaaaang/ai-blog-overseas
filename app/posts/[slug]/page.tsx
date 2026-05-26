@@ -82,6 +82,19 @@ export default async function PostPage({ params }: Props) {
                 className="article-body text-sm leading-relaxed max-w-none"
                 dangerouslySetInnerHTML={{ __html: post!.content }}
               />
+
+              {/* 著者情報 */}
+              <div className="mt-8 pt-6 border-t flex items-start gap-4" style={{ borderColor: 'var(--border)' }}>
+                <div className="w-12 h-12 rounded-full flex items-center justify-center shrink-0 text-white font-bold text-lg" style={{ backgroundColor: 'var(--accent)' }}>
+                  TH
+                </div>
+                <div>
+                  <p className="text-sm font-bold mb-1" style={{ color: 'var(--text-primary)' }}>ツールハンター編集部</p>
+                  <p className="text-xs leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+                    ProductHunt・TechCrunch・VentureBeatなど海外メディアを日々チェックし、日本人に役立つSaaS・AIツール情報を発信しています。英語圏の最新ツールをいち早く日本語でお届けすることをミッションにしています。
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
 
