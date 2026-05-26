@@ -102,7 +102,7 @@ async function generateArticle(item) {
   const [contentMsg, titleMsg] = await Promise.all([
     anthropic.messages.create({
       model: 'claude-haiku-4-5-20251001',
-      max_tokens: 1500,
+      max_tokens: 2500,
       messages: [{
         role: 'user',
         content: siteConfig.contentPrompt(item),
@@ -140,7 +140,7 @@ async function main() {
       const { title, content } = await generateArticle(item)
       const slug = slugify(title)
       const tags = siteConfig.tags(item.source)
-      const imageUrl = item.imageUrl || await fetchUnsplashUrl(tags, SITE_ID, slug)
+      const imageUrl = item.imageUrl || await fetchUnsplashUrl(tags, SITE_ID, slug, item.link)
       const post = {
         slug,
         title,

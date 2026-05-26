@@ -2,6 +2,7 @@ import { getPostBySlug, getAllPosts } from '@/lib/posts'
 import { siteConfig } from '@/lib/site-config'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import Image from 'next/image'
 import type { Metadata } from 'next'
 
 type Props = { params: Promise<{ slug: string }> }
@@ -45,16 +46,30 @@ export default async function PostPage({ params }: Props) {
         <article className="flex-1 min-w-0">
           <div className="rounded-lg shadow-sm overflow-hidden" style={{ backgroundColor: 'var(--card-bg)' }}>
             {/* ヘッダー画像エリア */}
-            <div
-              className="h-32 flex items-end p-6"
-              style={{ background: `linear-gradient(135deg, var(--header-bg), color-mix(in srgb, var(--accent) 30%, var(--header-bg) 70%))` }}
-            >
-              <div className="flex flex-wrap gap-2">
-                {post!.tags.map(tag => (
-                  <span key={tag} className="text-xs bg-white/20 text-white px-2 py-0.5 rounded">
-                    #{tag}
-                  </span>
-                ))}
+            <div className="relative h-64 overflow-hidden">
+              {post!.imageUrl ? (
+                <Image
+                  src={post!.imageUrl}
+                  alt={post!.title}
+                  fill
+                  className="object-cover"
+                  unoptimized
+                />
+              ) : null}
+              <div
+                className="absolute inset-0 flex items-end p-6"
+                style={{ background: post!.imageUrl
+                  ? 'linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.2) 60%, transparent 100%)'
+                  : `linear-gradient(135deg, var(--header-bg), color-mix(in srgb, var(--accent) 30%, var(--header-bg) 70%))`
+                }}
+              >
+                <div className="flex flex-wrap gap-2">
+                  {post!.tags.map(tag => (
+                    <span key={tag} className="text-xs bg-white/20 text-white px-2 py-0.5 rounded">
+                      #{tag}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
 

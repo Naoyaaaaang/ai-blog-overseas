@@ -32,17 +32,44 @@ function getKeyword(tags, siteId) {
   return mapped[0] || SITE_DEFAULTS[siteId] || 'technology'
 }
 
-// slug から決定的なlock番号を生成して同一記事は常に同じ画像
 function lockFromSlug(slug) {
   const digits = (slug || '').replace(/\D/g, '')
   return digits.length > 4 ? parseInt(digits.slice(-4)) : Math.floor(Math.random() * 1000)
 }
 
-function fetchUnsplashUrl(tags, siteId, slug) {
+function loremflickrUrl(tags, siteId, slug) {
   const keyword = getKeyword(tags, siteId)
   const lock = lockFromSlug(slug)
-  // loremflickr.com: 無料・API不要・キーワード対応・lock番号で画像固定
-  return Promise.resolve(`https://loremflickr.com/1200/630/${keyword}?lock=${lock}`)
+  return `https://loremflickr.com/1200/630/${keyword}?lock=${lock}`
+}
+
+// 記事URLからOGP画像を取得する（失敗時はnullを返す）
+async function fetchOgpImage(url) {
+  if (!url) return null
+  try {
+    const controller = new AbortController()
+    const timer = setTimeout(() => controller.abort(), 5000)
+    const res = await fetch(url, {
+      signal: controller.signal,
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; ToolHunterBot/1.0)' },
+    })
+    clearTimeout(timer)
+    if (!res.ok) return null
+    const html = await res.text()
+    const match = html.match(/<meta[^>]+(?:property="og:image"|name="twitter:image")[^>]+content="([^"]+)"/i)
+      || html.match(/<meta[^>]+content="([^"]+)"[^>]+(?:property="og:image"|name="twitter:image")/i)
+    return match ? match[1] : null
+  } catch {
+    return null
+  }
+}
+
+async function fetchUnsplashUrl(tags, siteId, slug, sourceUrl) {
+  // まずRSSの記事URLからOGP画像を取得を試みる
+  const ogp = await fetchOgpImage(sourceUrl)
+  if (ogp) return ogp
+  // フォールバックはloremflickr
+  return loremflickrUrl(tags, siteId, slug)
 }
 
 module.exports = { fetchUnsplashUrl }
