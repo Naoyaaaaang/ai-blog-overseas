@@ -44,6 +44,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja" className={`h-full site-${siteConfig.siteId}`} style={cssVars}>
+      <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-50Y4WLDVRC" />
+        <script dangerouslySetInnerHTML={{ __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-50Y4WLDVRC');
+        `}} />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8055533893771652" crossOrigin="anonymous" />
+      </head>
       <body className="min-h-full flex flex-col antialiased" style={{ backgroundColor: 'var(--bg)', color: 'var(--text-primary)' }}>
 
         {/* ヘッダー */}
