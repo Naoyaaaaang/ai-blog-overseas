@@ -247,9 +247,6 @@ function ToolCard({ post, large }: { post: Post; large: boolean }) {
       <div className="flex-1 p-4 min-w-0">
         <div className="flex items-start gap-2 mb-1.5">
           <span className="text-xs font-medium" style={{ color: 'var(--text-secondary)' }}>{post.source}</span>
-          <span className="text-xs px-2 py-0.5 rounded-full ml-auto shrink-0 font-medium bg-emerald-100 text-emerald-700">
-            無料あり
-          </span>
         </div>
         <h2 className={`font-bold leading-snug line-clamp-2 group-hover:opacity-70 transition-opacity ${large ? 'text-base' : 'text-sm'}`} style={{ color: 'var(--text-primary)' }}>
           {post.title}

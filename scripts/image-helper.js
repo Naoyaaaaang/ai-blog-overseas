@@ -65,11 +65,15 @@ async function fetchOgpImage(url) {
 }
 
 async function fetchUnsplashUrl(tags, siteId, slug, sourceUrl) {
-  // まずRSSの記事URLからOGP画像を取得を試みる
+  // 記事URLからOGP画像（その記事固有の本物の画像）を取得する
   const ogp = await fetchOgpImage(sourceUrl)
   if (ogp) return ogp
-  // フォールバックはloremflickr
-  return loremflickrUrl(tags, siteId, slug)
+  // 取得できなければ null を返す。
+  // 描画側（PostCard / 記事ページ）が記事と無関係なランダム写真ではなく、
+  // サイトのブランドカラーのプレースホルダーを表示する。
+  // ※ 以前は loremflickr のランダム画像を使っていたが、記事と無関係な画像は
+  //   「有用性の低いコンテンツ」と判定される一因になるため廃止（2026-06-16）
+  return null
 }
 
 module.exports = { fetchUnsplashUrl }
