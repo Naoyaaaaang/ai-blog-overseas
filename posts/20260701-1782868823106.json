@@ -1,0 +1,14 @@
+{
+  "slug": "20260701-1782868823106",
+  "title": "Meituan、1.6Tのエージェント型コーディング言語モデル「LongCat-2.0」をオープンソース化",
+  "content": "<h2>中国配車大手Meituanが公開した「LongCat-2.0」とは</h2>\n\n<p>中国の配車・デリバリープラットフォーム大手Meituanが、ソフトウェア開発に特化した大規模言語モデル「LongCat-2.0」をGitHubとHugging Face上でオープンソース化した。報道によると、このモデルは過去2ヶ月間、OpenRouterというAIプラットフォーム上で「Owl Alpha」という匿名コードネームで利用されており、開発者向けツールランキングで世界トップ3に君臨していたという。</p>\n\n<p>LongCat-2.0は1.6兆パラメータの大規模モデルであり、単一の入力トークンあたり平均48億パラメータの計算処理を行う「Mixture-of-Experts（MoE）」アーキテクチャを採用している。最大100万トークンのコンテキストウィンドウをサポートしており、エンタープライズグレードのMITライセンスの下で公開されている。ただし執筆時点では、モデルの完全な重みはまだ公開されていないと報じられている。</p>\n\n<h2>中国製チップのみで訓練—地政学的な転換点</h2>\n\n<p>このリリースを特に注目させる要因は、LongCat-2.0が5万個を超える中国国産の専用チップ（ASIC）のみを用いて訓練されたという点だ。従来、世界的なAIモデルの開発ではNvidiaのGPUが支配的であったが、代替シリコンの成功事例が示されたことは、グローバルなAI基盤インフラにおける構造的な転換を示唆している。</p>\n\n<p>ソースによると、この開発は米国政府による規制圧力と重なる形で進行した。OpenAIはGPT-5.6モデルのアクセス制限を強いられ、AnthropicもClaude Fable 5/Mythos 5をオフラインにしたという。欧米の閉鎖的なモデルに対するこうした動きが、逆説的に、廉価で高性能なオープンソースの選択肢としてLongCat-2.0のような中国製モデルへの需要を高める結果につながっている可能性がある。</p>\n\n<h2>ソフトウェア工学タスクに特化した設計と価格戦略</h2>\n\n<p>LongCat-2.0は汎用的な会話能力より、複数ステップの工学タスク、ツール統合、リポジトリの自動操作といった「エージェント」的な能力に焦点を当てている。ソースに掲載されたベンチマークによると、ソフトウェア工学分野の標準評価「SWE-bench Pro」で59.5を記録し、OpenAIのGPT-5.5の58.6を上回ったと報じられている。</p>\n\n<p>価格面では、通常時は入力100万トークンあたり0.75ドル、出力は2.95ドルとされているが、期間限定のプロモーションでは入力0.30ドル、出力1.20ドルに割引されている。また独自の機能として、キャッシュに命中した入力コンテキストは無料処理される。これは大規模なコード開発環境で同一リポジトリを繰り返し参照する際、コスト削減につながる可能性がある。</p>\n\n<ul>\n<li>3つの専門家クラスタ（Agent Experts、Reasoning Experts、Interaction Experts）による特化型の最適化</li>\n<li>100万トークンのコンテキストウィンドウによる長文対応</li>\n<li>MIT ライセンスでの公開により、企業の独自最適化・内製化が容易</li>\n</ul>\n\n<h2>日本の企業向けの活用可能性と留意点</h2>\n\n<p>エンタープライズ環境では、このモデルをオンプレミスにデプロイすることで、クラウドベースのAPIに対するデータプライバシー懸念を回避できると考えられる。特に、レガシーシステムの大規模マイグレーション、コードベースの自動リファクタリング、社内インフラの継続的なメンテナンスといったユースケースが想定されている。</p>\n\n<p>一方、気になる点も存在する。日本語対応の詳細は公開情報では不明であり、実装を検討する場合は公式ドキュメントの確認が必須だ。また、モデルの完全な重みはまだ公開されておらず、実運用に向けたロードマップも明確ではない。さらに、OpenRouter上での利用を除けば、実装済みの日本国内でのサービス提供は確認されていない。</p>\n\n<p><a href=\"https://venturebeat.com/technology/meituan-open-sources-longcat-2-0-the-1-6t-near-frontier-agentic-coding-model-thats-been-leading-openrouter-trained-entirely-on-chinese-chips\" target=\"_blank\">参照元：VentureBeat</a></p>",
+  "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/3JhPWvGZL0ITKfOW59a6dD/6b4f45b2aba49b72a7a254507dc69a9d/ChatGPT_Image_Jun_30__2026__01_18_58_AM.png?w=300&q=30",
+  "source": "AI Tools",
+  "sourceUrl": "https://venturebeat.com/technology/meituan-open-sources-longcat-2-0-the-1-6t-near-frontier-agentic-coding-model-thats-been-leading-openrouter-trained-entirely-on-chinese-chips",
+  "publishedAt": "2026-07-01T01:20:23.106Z",
+  "tags": [
+    "海外ツール",
+    "SaaS",
+    "AI Tools"
+  ]
+}
